@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 
 .paymentform {
+  font-family: "Cabin", sans-serif;
     width: 676px;
     height: 834px;
     top: 95px;
@@ -11,6 +15,7 @@
 }
 
 .paymentform-label label{
+  font-family: "Cabin", sans-serif;
 width: Hug (117px)px;
 height: Hug (19px)px;
 padding: 0px 8px 0px 8px;
@@ -20,6 +25,7 @@ opacity: 0px;
 }
 
 .form-control {
+  font-family: "Cabin", sans-serif;
     width: 596px;
     height: 56px;
     border-radius: 13px;
@@ -61,6 +67,7 @@ background: #12805D;
 }
 
 .cta{
+  font-family: "Cabin", sans-serif;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -74,6 +81,7 @@ background: #12805D;
 }
 @media (max-width: 991px) {
   .cta {
+    font-family: "Cabin", sans-serif;
     max-width: 100%;
     margin: 40px 10px 0 0;
     padding: 0 20px;
@@ -87,6 +95,7 @@ background: #12805D;
 }
 
 .information{
+  font-family: "Cabin", sans-serif;
     justify-content: space-between;
     display: flex;
     margin-top: 32px;
@@ -106,6 +115,7 @@ background: #12805D;
   }
 
 .btn-back{
+  font-family: "Cabin", sans-serif;
     color: var(--Font-Dark, #1a1f16);
     font-family: Cabin, sans-serif;
     text-decoration-line: underline;
