@@ -19,7 +19,7 @@ opacity: 0px;
 
 }
 
- input{
+.form-control {
     width: 596px;
     height: 56px;
     border-radius: 13px;
@@ -28,6 +28,8 @@ opacity: 0px;
     box-shadow: 0px 4px 16px 0px #1A1F1626;
     
 }
+
+
 .default{
 font-family: Cabin, sans-serif;
 width: Fill (612px)px;
