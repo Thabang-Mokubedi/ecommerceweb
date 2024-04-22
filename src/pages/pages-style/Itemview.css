@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+  
+  background-color: #EDEDED;
+  font-family: "Cabin", sans-serif;
+overflow-x: hidden;
+}
+
+.columns {
+    display: flex;
+    width: 100%;
+  }
+  
+  .column1, .column2, .column3 {
+    flex: 1; /* Each column takes up equal space */
+    padding: 5px; /* Add some spacing around the content */
+  }
+  
+  /* Optional: Customize the width of each column */
+  .column1 {
+    margin-right: -10px;
+    width: 10%; /* First column takes up 25% of the space */
+  }
+  
+  .column-2 {
+    width: 40%; /* Second column takes up 50% of the space */
+    padding-bottom: 200px;
+    padding-top: 50px;
+  }
+  
+  .column-3 {
+    border-left: #1A1F16 4px solid;
+    width: 25%; /* Third column takes up 25% of the space */
+    margin: 30px;
+    color: #ededed;
+  }
+
+  .Cart {
+    background-color: #ededed;
+  }
+
+  button{
+    background-color: #EDEDED;
+    color: #EDEDED;
+    border: #EDEDED;
+  }
+
+  input{
+    background-color: #EDEDED;
+    border: #EDEDED;
+    color: #EDEDED;
+  }
+
+  #heading-cart{
+    color: #000000;
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  .ViewBag-Btn {
+    color: #ffffff;
+    text-align: center;
+    background-color: #1A1F16;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .sidecart img{
+    background-color: #ffffff;
+    padding-left: 30px;
+    border-radius: 20px;
+    }
+
+.column-2{
+    color: #1A1F16;
+    padding: 100px;
+}
+
+.bagsection .cartItem{
+    background-color: #ffffff;
+    padding-right: 300px;
+}
+
+.bagTitle{
+  width: 444px;
+height: 59px;
+gap: 0px;
+opacity: 0px;
+font-family: Cabin;
+font-size: 48.83px;
+font-weight: 400;
+line-height: 59.33px;
+text-align: left;
+}
+
+#totalp{
+  font-family: "Cabin", sans-serif;
+  color: #ededed;
+}
+
+#description{
+  width: 400px;
+}
+
+.brief-description{
+  font-size: 18px;
+  width: 300px;
+}
+
+#productItem{
+  padding-bottom: 45px;
+  padding-top: 30px;
+}
+
+.product-name{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.column-2 .product-color {
+  margin-top: -20px;
+color: #60695C;
+font-family: Cabin;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.3px;
+text-align: left;
+}
+
+.product-price{
+  font-size: 25px;
+}
+
+.column-3 .cartItem{
+  margin-bottom: -100px;
+}
+
+.column-2 #plus-icon {
+  font-size: 25px;
+  background-color: #ffffff;
+  color: green;
+}
+
+.column-2 #subtraction-icon {
+  font-size: 25px;
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+}
+
+.column-2 #inputValue{
+  color: #1A1F16;
+  font-size: 23px;
+  background-color: #ffffff;
+}
+
+.column-3 #totalp {
+  color: #1A1F16;
+font-size: 28px;
+font-weight: 600;
+line-height: 24.3px;
+text-align: left;
+margin-top: 80px;
+}

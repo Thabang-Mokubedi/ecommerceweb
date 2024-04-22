@@ -1,0 +1,129 @@
+.item-view {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+
+
+.item-description {
+    /* Styles for paragraph element */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+}
+
+.item-title {
+    /* Styles for the h2 element */
+    width: 338px;
+    height: 74px;
+    gap: 0px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 61.04px;
+    font-weight: 700;
+    line-height: 74.16px;
+    text-align: left;
+}
+
+.item-subtitle {
+    /* Styles for the smaller text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+    width: 147px;
+    height: 38px;
+    color: #1A1F1680; 
+}
+
+.star-rating {
+    width: 350px;
+    height: 24px;
+    padding: 0px 16px 0px 0px;
+
+    /* Add styles for the star rating image */
+}
+
+.item-price {
+    /* Styles for the price text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+}
+
+
+.add-to-bag-button {
+    /* Position the button image */
+    position: absolute;
+    bottom: 40px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.horizontal-line {
+    /* Layout styles for the horizontal line */
+    width: 100%; /* Occupy full width of the container */
+    height: auto; /* Hug content height */
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+}
+
+.description-header {
+    /* Styles for the description header container */
+    border-top: solid 2px black;
+}
+
+.description-header-text {
+    /* Typography styles for the description header text */
+    font-family: 'Cabin', sans-serif;
+    font-size: 31.25px;
+    font-weight: 500;
+    line-height: 37.97px;
+    text-align: left;
+}
+
+.item-details {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.item-info {
+    margin-right: auto; /* Pushes the item-info to the right */
+}
+
+.item-image {
+    margin-right: 20px; /* Adjust margin as needed */
+    background-color: #ffffff;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.back-button:hover {
+    background-color: #cccccc;
+}
+
+.Back-Btn:hover{
+    background-color: #ffffff;
+    border-radius: 20px;
+}

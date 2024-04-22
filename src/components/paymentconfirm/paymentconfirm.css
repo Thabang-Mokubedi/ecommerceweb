@@ -1,0 +1,31 @@
+/* Importing the 'Cabin' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.bg {
+  background-color: #1a1f16;
+  font-family: "Cabin", sans-serif;
+  border-radius: 30px;
+  width: 480px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: white;
+  font-family: "Cabin", sans-serif;
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 80px 30px 25px 30px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 30px;
+  border-radius: 30px;
+}

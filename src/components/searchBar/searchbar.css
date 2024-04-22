@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+.wrapper {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: "Cabin", sans-serif;
+    margin-top: 20px;
+}
+  
+.label {
+    font-family: "Cabin", sans-serif;
+    padding-bottom: 80px;
+    width: 78px;
+height: 19px;
+gap: 0px;
+opacity: 0px;
+margin-left: 7px;
+  }
+  
+  .searchBar {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: Fill (507px)px;
+  }
+  
+  #searchQueryInput {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.42);
+    height: Hug (56px)px;
+padding: 8px 16px 8px 16px;
+gap: 8px;
+border-radius: 13px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+    width: 100%;
+    height: 3.5rem;
+    outline: none;
+    border: none;
+    border-radius: 1.3rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  

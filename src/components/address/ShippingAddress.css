@@ -1,0 +1,143 @@
+.container{
+    width: 1440px;
+    height: 1024px;
+    top: -529px;
+    left: 7379px;
+    border-radius: 16px;
+    background: #EDEDED;
+    
+}
+form{
+    width: 676px;
+    height: 834px;
+    top: 95px;
+    left: 382px;
+    border-radius: 15px;
+    padding: 32px;
+    gap: 16px;
+    background-color: white;
+}
+
+label{
+width: Hug (117px)px;
+height: Hug (19px)px;
+padding: 0px 8px 0px 8px;
+gap: 10px;
+opacity: 0px;
+
+}
+
+ input{
+    width: 596px;
+    height: 56px;
+    border-radius: 13px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 8px;
+    box-shadow: 0px 4px 16px 0px #1A1F1626;
+    
+}
+.default{
+font-family: Cabin, sans-serif;
+width: Fill (612px)px;
+height: Hug (56px)px;
+padding: 16px 8px 16px 8px;
+gap: 8px;
+opacity: 0px;
+
+
+}
+ .default{
+ 
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+.default input{
+width: 12px;
+height: 12px;
+top: 2px;
+left: 2px;
+gap: 0px;
+border-radius: 1px 0px 0px 0px;
+opacity: 0px;
+background: #12805D;
+
+
+}
+
+.cta{
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--UI-Dark, #1a1f16);
+  display: flex;
+  font-size: 20px;
+  color: var(--Font-White, #fff);
+  font-weight: 500;
+  margin: 48px 16px 0;
+  padding: 8px 24px;
+}
+@media (max-width: 991px) {
+  .cta {
+    max-width: 100%;
+    margin: 40px 10px 0 0;
+    padding: 0 20px;
+  }
+}
+
+.address{
+  border: none;
+  background: none;
+  color: white;
+  
+ 
+}
+
+.information{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    padding: 6px 0 6px 24px;
+}
+@media (max-width: 991px) {
+    .information {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-left: 20px;
+    }
+  }
+
+.btn-back{
+    color: var(--Font-Dark, #1a1f16);
+    font-family: Cabin, sans-serif;
+    text-decoration-line: underline;
+    margin: auto 0;
+    border: none;
+    color: #1A1F1680;
+    background: none;
+    
+}
+.secure-connection{
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    color: var(--Font-Success, #02d693);
+    margin-left: 3px;
+}
+.btn-secure{
+    font-family: Cabin, sans-serif;
+    margin: auto 0;
+    color: #02d693;
+    font-size: small;
+    width: 123px;
+    height: 19px;
+    gap: 0px;
+   opacity: 0px;
+
+}
