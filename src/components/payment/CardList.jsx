@@ -4,18 +4,21 @@ import { CreditCard } from 'phosphor-react';
 
 const CardList = ({ cards, setDefaultCard }) =>{
   return (
-    <div>
+    <div className='cardlistdiv'>
       <div className="payment">
         <header className='selectCard'>SELECT A CARD</header>
       
       {cards.map((card, index) => (
-        <div key={index}>
+        
+        <div key={index} >
           <input
+          id='check'
             type="checkbox"
             className="form-check-input"
             checked={card.isDefault}
             onChange={() => setDefaultCard(index)}
-          />  <CreditCard size={32} /> &nbsp; &nbsp;Mastercard ending in {card.cardNumber.slice(-4)}
+          />  <CreditCard id='cardicon' size={30} /> &nbsp; &nbsp;Mastercard ending in {card.cardNumber.slice(-4)}
+        
         </div>
       ))}
       </div>
