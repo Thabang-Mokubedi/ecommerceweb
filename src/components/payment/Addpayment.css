@@ -93,9 +93,13 @@ width: 700px;
 
 .cardcontainer{
   border-radius: 33px;
-  background: #EDEDED;
+  background: #ffffff;
+  margin-left: 280px;
+  margin-right: 280px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +107,6 @@ width: 700px;
 
 .cardlistdiv{
   border-radius: 33px;
-  background: #EDEDED;
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -115,3 +118,4 @@ width: 700px;
   font-size: 24px;
   color: #424242;
 }
+

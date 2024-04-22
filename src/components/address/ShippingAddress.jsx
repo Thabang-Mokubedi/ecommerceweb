@@ -34,7 +34,7 @@ const ShippingAddress = () => {
     };
 
     return (
-        <div className="cardcontainer">
+        <div className="card-container">
             <form onSubmit={handleSubmit} className='paymentform'>
                 <div className="mb-3">
                     <div className='input-div'>

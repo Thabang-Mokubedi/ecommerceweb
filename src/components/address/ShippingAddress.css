@@ -84,8 +84,6 @@ background: #12805D;
   border: none;
   background: none;
   color: white;
-  
- 
 }
 
 .information{
@@ -136,7 +134,7 @@ background: #12805D;
 
 }
 
-.cardcontainer{
+.card-container{
   border-radius: 33px;
   background: #EDEDED;
   margin-top: 30px;

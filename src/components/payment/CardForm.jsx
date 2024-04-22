@@ -32,6 +32,7 @@ const CardForm = ({ addCard }) => {
   };
 
   return (
+    <div className='newcard-div'>
     <div className="cardcontainer">
       <form onSubmit={handleSubmit}>
         <header className='newCard'>Add A New Card</header>
@@ -39,7 +40,7 @@ const CardForm = ({ addCard }) => {
         <div className="mb-3">
 
           <div className='input-div'>
-            <label htmlFor="cardHolder" className="form-label">Cardholder Name</label>
+            <label htmlFor="cardHolder" className="form-label">Cardholder Name</label><br></br>
             <input
               type="text"
               className="form-control"
@@ -52,7 +53,7 @@ const CardForm = ({ addCard }) => {
           </div>
 
           <div className='input-div'>
-            <label htmlFor="cardNumber" className="form-label">Card Number</label>
+            <label htmlFor="cardNumber" className="form-label">Card Number</label><br></br>
             <input
               type="number"
               className="form-control"
@@ -65,7 +66,7 @@ const CardForm = ({ addCard }) => {
           </div>
 
           <div className='input-div'>
-            <label htmlFor="expiryDate" className="form-label">Expiry Date</label>
+            <label htmlFor="expiryDate" className="form-label">Expiry Date</label><br></br>
             <input
               type="text"
               className="form-control"
@@ -78,7 +79,7 @@ const CardForm = ({ addCard }) => {
           </div>
 
           <div className='input-div'>
-            <label id='form-label' htmlFor="cvc" className="form-label">CVC</label>
+            <label id='form-label' htmlFor="cvc" className="form-label">CVC</label><br></br>
             <input
               type="number"
               className="form-control"
@@ -114,7 +115,7 @@ const CardForm = ({ addCard }) => {
           </div>
         </div>
       </form>
-    </div>
+    </div></div>
   );
 }
 

@@ -22,6 +22,9 @@ export const AppleStoreContextProvider = (props) => {
         totalAmount += cartItems[item] * itemInfo.price;
       }
     }
+
+    totalAmount += (85 + 20);
+
     return totalAmount;
   };
 

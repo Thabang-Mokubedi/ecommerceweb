@@ -35,7 +35,7 @@ export const CartSummary = () => {
                 <div className="cartsummary-hr" />
                 <div className="subdiv">
                     <div className="cart-subheading">Order Total:</div>
-                    <div className="price-cart">$ {totalAmount + 85 + 20}</div>
+                    <div className="price-cart">$ {totalAmount}</div>
                 </div>
 
                 <div className="cartsummary-hr" />
