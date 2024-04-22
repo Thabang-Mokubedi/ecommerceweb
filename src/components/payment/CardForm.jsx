@@ -107,7 +107,7 @@ const CardForm = ({ addCard }) => {
           <button type="submit" className="address">Add Payment Method</button>
         </div>
         <div className="information">
-          <Link to="/checkout" type="button" className="btn-back">Back</Link>
+          <Link to="/checkout" type="button" className="bttnback">Back</Link>
           <div className="secure-connection">
             <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca2b633c7b8fdad75937bd1a00ec582b64a9b9ab9326e9f0a139cee7f42d1c1e?" alt="" />
             <div className="btn-secure">Secure Connection</div>

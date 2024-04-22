@@ -1,13 +1,5 @@
-.container{
-    width: 1440px;
-    height: 1024px;
-    top: -529px;
-    left: 7379px;
-    border-radius: 16px;
-    background: #EDEDED;
-    
-}
-form{
+
+.paymentform {
     width: 676px;
     height: 834px;
     top: 95px;
@@ -18,7 +10,7 @@ form{
     background-color: white;
 }
 
-label{
+.paymentform-label label{
 width: Hug (117px)px;
 height: Hug (19px)px;
 padding: 0px 8px 0px 8px;
@@ -140,4 +132,23 @@ background: #12805D;
     gap: 0px;
    opacity: 0px;
 
+}
+
+.cardcontainer{
+  border-radius: 33px;
+  background: #EDEDED;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bttnback{
+  font-size: 24px;
+  color: #424242;
+}
+
+#defaultAddress{
+  width: 20px;
 }
