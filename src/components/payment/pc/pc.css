@@ -5,13 +5,14 @@
     margin-right: 290px;
     margin-top: 30px;
     margin-bottom: -30px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
-
     background-color: rgb(255, 255, 255);
     font-size: 33px;
-    letter-spacing: 1px;
+    letter-spacing: 8px;
+    border-radius: 10px;
+    padding-right: 340px;
   }
   

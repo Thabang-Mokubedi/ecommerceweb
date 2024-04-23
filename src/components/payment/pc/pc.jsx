@@ -5,7 +5,7 @@ const Pc = () => {
   return (
     <div>
     <div className="textdiv">
-        <div>Select a Card</div>
+        <div>SELECT A CARD</div>
       </div>
     </div>
   )
