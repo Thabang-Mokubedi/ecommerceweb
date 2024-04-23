@@ -1,6 +1,7 @@
 import React from 'react';
 import './Addpayment.css';
 import { CreditCard } from 'phosphor-react';
+import './payment.css';
 
 const CardList = ({ cards, setDefaultCard }) =>{
   return (

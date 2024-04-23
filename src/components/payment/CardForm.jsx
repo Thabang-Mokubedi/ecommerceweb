@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Addpayment.css';
 import { Link } from 'react-router-dom';
+import './payment.css';
 
 const CardForm = ({ addCard }) => {
   const [cardDetails, setCardDetails] = useState({
