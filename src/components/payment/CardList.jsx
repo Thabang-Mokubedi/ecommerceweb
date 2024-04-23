@@ -7,7 +7,7 @@ const CardList = ({ cards, setDefaultCard }) =>{
   return (
     <div className='cardlistdiv'>
       <div className="payment">
-        <header className='selectCard'>SELECT A CARD</header>
+        <header className='selectCard' style={{color: "black"}} >SELECT A CARD</header>
       
       {cards.map((card, index) => (
         

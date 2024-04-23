@@ -36,7 +36,7 @@ const CardForm = ({ addCard }) => {
     <div className='newcard-div'>
     <div className="cardcontainer">
       <form onSubmit={handleSubmit}>
-        <header className='newCard' style={{color: "red"}}>Add A New Card</header>
+        <header className='newCard' style={{color: "black"}}>Add A New Card</header>
         {/* Inputs for cardHolder, cardNumber, expiryDate, cvc */}
         <div className="mb-3">
 
