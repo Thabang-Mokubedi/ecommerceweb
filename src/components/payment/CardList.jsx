@@ -6,7 +6,7 @@ import './payment.css';
 const CardList = ({ cards, setDefaultCard }) =>{
   return (
   <>
-  <header className='selectCard' style={{color: "black"}}>SELECT A CARD</header>
+  
     <div className='cardlistdiv'>
     
       <div className="payment">
