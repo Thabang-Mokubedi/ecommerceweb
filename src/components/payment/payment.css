@@ -5,3 +5,20 @@
 .selectCard{
     color: rgb(0, 0, 0);
 }
+
+.selectCard{
+    width: 750px;
+    font-family: "Cabin", sans-serif;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}

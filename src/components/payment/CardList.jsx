@@ -5,9 +5,12 @@ import './payment.css';
 
 const CardList = ({ cards, setDefaultCard }) =>{
   return (
+  <>
+  <header className='selectCard' style={{color: "black"}}>SELECT A CARD</header>
     <div className='cardlistdiv'>
+    
       <div className="payment">
-        <header className='selectCard' style={{color: "black"}}>SELECT A CARD</header>
+        
       
       {cards.map((card, index) => (
         
@@ -24,6 +27,7 @@ const CardList = ({ cards, setDefaultCard }) =>{
       ))}
       </div>
     </div>
+    </>
   );
 }
 
