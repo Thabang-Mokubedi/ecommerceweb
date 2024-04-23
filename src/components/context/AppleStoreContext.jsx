@@ -23,7 +23,7 @@ export const AppleStoreContextProvider = (props) => {
       }
     }
 
-    totalAmount += (85 + 20);
+    totalAmount += (85 + 20 + 53.21);
 
     return totalAmount;
   };

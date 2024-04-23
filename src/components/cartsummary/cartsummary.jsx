@@ -29,7 +29,7 @@ export const CartSummary = () => {
 
                 <div className="sub-div">
                     <div className="cart-subheading">Gift Card:</div>
-                    <div className="price-cart">$ 0.00</div>
+                    <div className="price-cart">$ 53.21</div>
                 </div>
 
                 <div className="cartsummary-hr" />

@@ -5,9 +5,9 @@ import './payment.css';
 
 const CardList = ({ cards, setDefaultCard }) =>{
   return (
-    <div className='cardlistdiv' style={{color: "black"}} >
-      <div className="payment" style={{color: "black"}} >
-        <header className='selectCard' style={{color: "black"}} >SELECT A CARD</header>
+    <div className='cardlistdiv'>
+      <div className="payment">
+        <header className='selectCard' style={{color: "black"}}>SELECT A CARD</header>
       
       {cards.map((card, index) => (
         
