@@ -11,19 +11,19 @@ import SearchBar from '../components/searchBar/searchbar';
 // Define the Dashboard component as a functional component
 const Dashboard = () => {
   return (
-    <div className='columns'> {/* Container div with the class 'columns' */}
-      <div className='column1'> {/* First column */}
+    <div className='columns'> 
+      <div className='column1'> 
         <Sidenav /> {/* Render the Sidenav component */}
       </div>
-      <div className='column2'> {/* Second column */}
+      <div className='column2'> 
       <SearchBar />
         <Shop /> {/* Render the Shop component */}
       </div>
-      <div className='column3'> {/* Third column */}
+      <div className='column3'> 
         <div> {/* Container div for the cart heading */}
-          <h1 id='heading-cart'>Bag</h1> {/* Heading for the cart section */}
+          <h1 id='heading-cart'>Bag</h1> 
         </div>
-        <div className='sidecart'> {/* Container div for the Cart component */}
+        <div className='sidecart'> 
           <Cart /> {/* Render the Cart component */}
         </div>
         {/* Link component for navigating to the '/bag' route */}

@@ -12,8 +12,8 @@ import Dashboard from "./pages/Dashboard";
 import Bag from "./pages/Bag";
 import Checkout from "./pages/Checkout";
 import ItemView from "./pages/ItemView";
-import Payment from "./components/payment/Payment";
-import ShippingAddress from "./components/address/ShippingAddress";
+import PaymentPage from "./pages/Payment";
+import ShippingAddress from "./pages/AddAddress";
 import PaymentConfirm from "./components/paymentconfirm/paymentconfirm";
 
 function App() {
@@ -51,7 +51,7 @@ function App() {
 
             {/* Payment Method Form */}
             {/* When the path matches "/payment", the Payment component will be rendered */}
-            <Route path="/payment" element={<Payment />} />
+            <Route path="/payment" element={<PaymentPage />} />
 
             {/* Order Successful Page */}
             {/* When the path matches "/paymentconfirm", the PaymentConfirm component will be rendered */}
